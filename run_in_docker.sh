@@ -1,1 +1,1 @@
-docker run --rm -it -v $(pwd):/app
+docker run --rm -it -v $(pwd):/app -p 3000:3000 my-python-app /bin/bash
